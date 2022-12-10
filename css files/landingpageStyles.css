@@ -25,6 +25,20 @@ section{
     height: 120%;
     object-fit: cover;
 }
+nav{
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    top: 0%;
+    background-color: navajowhite;
+}
+.logo{
+    width: 10%;
+    height: 80%;
+    margin-left: 1rem;
+    margin-top: 5px;
+    background-color: lightpink;
+}
 main{
     position: absolute;
     width: 100%;
@@ -98,11 +112,5 @@ main{
 }
 .learnMoreBtn i{
     margin-top: 18px;
-}
-nav{
-    position: absolute;
-    width: 100%;
-    height: 10%;
-    top: 0%;
 }
 
