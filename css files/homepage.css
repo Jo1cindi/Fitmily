@@ -105,6 +105,7 @@ footer {
   height: 40vh;
   background-color: #c28df2;
   font-family: Poppins, sans-serif;
+  margin-top: 10px;
 }
 .footer-items {
   width: 80%;
