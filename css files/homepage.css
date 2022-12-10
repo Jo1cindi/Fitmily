@@ -1,95 +1,191 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
 }
-footer{
-    width: 100vw;
-    height: 40vh;
-    background-color: #c28df2;
-    font-family: Poppins, sans-serif;
+body{
+    overflow-x: hidden;
 }
-.footer-items{
-    width: 80%;
-    height: 100%;
-    margin-left: 10%;
-    display: flex;
-    border-bottom: 2px solid #000000;
+h2 {
+  justify-content: center;
+  text-align: center;
+  color: black;
+  font-weight: 300;
+  font-family: sans-serif;
 }
-.company{
-    width: 20vw;
-    height: 100%;
+
+.flex-part {
+  display: flex;
+  flex-direction: row;
+  gap: 70px;
+
+  justify-content: center;
 }
-.help{
-    width: 20vw;
-    height: 100%;
+
+.first-blog {
+  border-radius: 10px;
+  background-color: rgb(236, 45, 236);
 }
-.resources{
-    width: 20vw;
-    height: 100%;
+
+.weigh-loss {
+  padding: 10px;
+  color: white;
+  justify-content: center;
+  text-align: center;
+  font-size: 25px;
 }
-.installApp{
-    width: 20vw;
-    height: 100%;
+
+.second-blog {
+  border-radius: 10px;
+  background-color: rgb(236, 45, 236);
+  height: 100%;
 }
-.installApp p{
-    color: #ffffff;
+
+.weight-gain {
+  padding: 10px;
+  color: white;
+  justify-content: center;
+  text-align: center;
+  font-size: 25px;
 }
-.copyright{
-    width: 100%;
-    height: 25%;
-    background-color: #c28df2;
-    display: flex;
-    justify-content: space-between;
+
+.Text-1 {
+  justify-content: center;
+  text-align: center;
 }
-.footer-items ul{
-    height: 80%;
-    width: 80%;
-    margin-left: 10%;
-    font-size: 14px;
+
+.Text-2 {
+  justify-content: center;
+  text-align: center;
 }
-.footer-items ul li{
-    margin-top: 10px;
-    list-style: none;
+
+button {
+  padding: 10px 0px;
+  border: 4px;
+  justify-content: center;
+  margin-left: 6rem;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 17px;
+  width: 180px;
+  color: purple;
+  background-color: white;
 }
-.footer-items ul li a{
-    text-decoration: none;
-    color: #ffffff;
+
+.second-div {
+  background-image: url("/Images/Frame 53.png");
+  width: 100%;
+  height: 60vh;
+  padding: 2px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.icon-box{
-    width: 150px;
-    height: 50px;
+
+.second-div button {
+  width: 30%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10rem;
+  margin-left: 28rem;
+  background-color: purple;
+  color: white;
+  font-size: 28px;
+  font-weight: 100;
+  padding: 10px 10px;
+  border-radius: 10px;
 }
-.icon-box img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+
+
+/* Footer */
+
+footer {
+  width: 100vw;
+  height: 40vh;
+  background-color: #c28df2;
+  font-family: Poppins, sans-serif;
 }
-.apple-icon-box{
-    width: 150px;
-    height: 50px;
+.footer-items {
+  width: 80%;
+  height: 75%;
+  margin-left: 10%;
+  display: flex;
+  border-bottom: 2px solid #000000;
 }
-.apple-icon-box img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+.company {
+  width: 20vw;
+  height: 100%;
 }
-.footer-items p{
-    margin-top: 10px;
-    margin-left: 10%;
-    font-weight: 600;
+.help {
+  width: 20vw;
+  height: 100%;
 }
-.copyright-text{
-    color: #ffffff;
-    margin-left: 10%;
-    margin-top: 20px;
+.resources {
+  width: 20vw;
+  height: 100%;
 }
-.social-icons{
-    margin-right: 10%;
-    margin-top: 20px;
-    width: 10%;
-    display: flex;
-    justify-content: space-between;
-    font-size: 18px;
+.installApp {
+  width: 20vw;
+  height: 100%;
+}
+.installApp p {
+  color: #ffffff;
+}
+.copyright {
+  width: 100%;
+  height: 25%;
+  background-color: #c28df2;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-items ul {
+  height: 80%;
+  width: 80%;
+  margin-left: 10%;
+  font-size: 14px;
+}
+.footer-items ul li {
+  margin-top: 10px;
+  list-style: none;
+}
+.footer-items ul li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.icon-box {
+  width: 150px;
+  height: 50px;
+}
+.icon-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.apple-icon-box {
+  width: 150px;
+  height: 50px;
+}
+.apple-icon-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.footer-items p {
+  margin-top: 10px;
+  margin-left: 10%;
+  font-weight: 600;
+}
+.copyright-text {
+  color: #ffffff;
+  margin-left: 10%;
+  margin-top: 20px;
+}
+.social-icons {
+  margin-right: 10%;
+  margin-top: 20px;
+  width: 10%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
 }
