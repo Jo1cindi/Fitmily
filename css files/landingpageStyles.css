@@ -10,7 +10,7 @@ body{
     overflow: hidden;
 }
 section{
-    position: relative;
+    /* position: relative; */
     width: 100%;
     height: 100%;
     background-image: radial-gradient(circle 1000px, #e0ccf0,#c28df2);
@@ -25,17 +25,10 @@ section{
     height: 120%;
     object-fit: cover;
 }
-.logo{
-    width: 10%;
-    height: 80%;
-    margin-left: 1rem;
-    margin-top: 5px;
-    background-color: lightpink;
-}
 main{
     position: absolute;
     width: 100%;
-    height: 90%;
+    height: 80%;
     top: 10%;
     font-family: Poppins, sans-serif;
 }
@@ -105,7 +98,7 @@ main{
 }
 .learnMoreBtn a{
     text-decoration: none;
-    color: #ffffff;
+    color: #721bca;
 }
 .learnMoreBtn i{
     margin-top: 18px;

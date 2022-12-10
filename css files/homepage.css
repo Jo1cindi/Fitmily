@@ -14,21 +14,17 @@ footer{
     width: 80%;
     height: 100%;
     margin-left: 10%;
-    background-color: firebrick;
     display: flex;
 }
 .company{
-    background-color: coral;
     width: 20vw;
     height: 100%;
 }
 .help{
-    background-color: honeydew;
     width: 20vw;
     height: 100%;
 }
 .resources{
-    background-color: rebeccapurple;
     width: 20vw;
     height: 100%;
 }
@@ -48,12 +44,10 @@ footer{
 .footer-items ul{
     height: 80%;
     width: 80%;
-    background-color: fuchsia;
     margin-left: 10%;
     font-size: 14px;
 }
 .footer-items ul li{
-    background-color: forestgreen;
     margin-top: 10px;
     list-style: none;
 }
