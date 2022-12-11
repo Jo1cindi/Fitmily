@@ -1,5 +1,5 @@
  @import url('https://fonts.googleapis.com/css2?family=Lora&family=Pacifico&display=swap');
- @import url('https://fonts.googleapis.com/css2?family=Lora&family=Pacifico&display=swap');
+ @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 
 nav{
    width: 100vw;
@@ -7,6 +7,7 @@ nav{
    display: flex;
    justify-content: space-between;
    background: none;
+   background-color: #ffffff;
 }
 .logo-box{
    height: 80%;
