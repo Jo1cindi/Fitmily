@@ -1,28 +1,93 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&family=Pacifico&display=swap');
 
 footer {
-   
+    width: 100vw;
+    height: 40vh;
     background-color: #c28df2;
-    position: absolute;
-width: 1440px;
-height: 340px;
-}
-
-h6{
-    font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 28px;
-letter-spacing: -0.2px;
-}
-
-a {
+    font-family: Poppins, sans-serif;
+    margin-top: 10px;
+  }
+  .footer-items {
+    width: 80%;
+    height: 75%;
+    margin-left: 10%;
+    display: flex;
+    border-bottom: 2px solid #000000;
+  }
+  .company {
+    width: 20vw;
+    height: 100%;
+  }
+  .help {
+    width: 20vw;
+    height: 100%;
+  }
+  .resources {
+    width: 20vw;
+    height: 100%;
+  }
+  .installApp {
+    width: 20vw;
+    height: 100%;
+  }
+  .installApp p {
+    color: #ffffff;
+  }
+  .copyright {
+    width: 100%;
+    height: 25%;
+    background-color: #c28df2;
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer-items ul {
+    height: 80%;
+    width: 80%;
+    margin-left: 10%;
+    font-size: 14px;
+  }
+  .footer-items ul li {
+    margin-top: 10px;
+    list-style: none;
+  }
+  .footer-items ul li a {
     text-decoration: none;
-    font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 22px;
-color: #E4E4E7;
-}
+    color: #ffffff;
+  }
+  .icon-box {
+    width: 150px;
+    height: 50px;
+  }
+  .icon-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .apple-icon-box {
+    width: 150px;
+    height: 50px;
+  }
+  .apple-icon-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .footer-items p {
+    margin-top: 10px;
+    margin-left: 10%;
+    font-weight: 600;
+  }
+  .copyright-text {
+    color: #ffffff;
+    margin-left: 10%;
+    margin-top: 20px;
+  }
+  .social-icons {
+    margin-right: 10%;
+    margin-top: 20px;
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+  }
+  
