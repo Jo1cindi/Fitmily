@@ -10,7 +10,7 @@ body{
     overflow: hidden;
 }
 section{
-    position: relative;
+    /* position: relative; */
     width: 100%;
     height: 100%;
     background-image: radial-gradient(circle 1000px, #e0ccf0,#c28df2);
@@ -25,17 +25,10 @@ section{
     height: 120%;
     object-fit: cover;
 }
-.logo{
-    width: 10%;
-    height: 80%;
-    margin-left: 1rem;
-    margin-top: 5px;
-    background-color: lightpink;
-}
 main{
     position: absolute;
     width: 100%;
-    height: 90%;
+    height: 80%;
     top: 10%;
     font-family: Poppins, sans-serif;
 }
@@ -103,7 +96,61 @@ main{
     margin-top: 12px;
     font-weight: 600;
 }
+.learnMoreBtn a{
+    text-decoration: none;
+    color: #721bca;
+}
 .learnMoreBtn i{
     margin-top: 18px;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Pacifico&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Lora&family=Pacifico&display=swap');
+
+ .container-fluid {
+font-family: 'Poppins' ;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+background-image: radial-gradient(circle 1000px, #e0ccf0,#c28df2);
+
+ }
+ .navbar-brand {
+    width: 152px;
+height: 44px;
+text-align: center;
+color: #721BCA;
+margin-bottom: 5px;
+ }
+
+ .navbar-nav{
+    margin-left:50px ;
+
+ }
+
+.sign_in{
+    border-radius: 10.7703px;
+    color: #721BCA;
+    border-color: #721BCA;
+
+}
+ .join {
+    background: #721BCA;
+    border-radius: 10.7703px;
+    color: #fff;
+    border-color: #721BCA;
+ }
+ 
+ .sign_in:hover {
+    border-radius: 10.7703px;
+    color: #721BCA;
+    border-color: #721BCA;
+    background: #fff;
+ }
+ .join:hover {
+    background: #721BCA;
+    border-radius: 10.7703px;
+    color: #fff;
+    border-color: #721BCA;
+ }
