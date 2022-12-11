@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Pacifico&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: vw;
+}
+
+.nav_header {
+    width: vw;
+height: 44px;
+}
+ .container-fluid {
+font-family: 'Poppins' ;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+background-image: radial-gradient(circle 1000px, #e0ccf0,#c28df2);
+
+ }
+ .navbar-brand {
+    width: 152px;
+height: 44px;
+text-align: center;
+color: #721BCA;
+margin-bottom: 5px;
+ }
+
+ .navbar-nav{
+    margin-left:50px ;
+
+ }
+
+.sign_in{
+    border-radius: 10.7703px;
+    color: #721BCA;
+    border-color: #721BCA;
+
+}
+ .join {
+    background: #721BCA;
+    border-radius: 10.7703px;
+    color: #fff;
+    border-color: #721BCA;
+ }
+ 
+ .sign_in:hover {
+    border-radius: 10.7703px;
+    color: #721BCA;
+    border-color: #721BCA;
+    background: #fff;
+ }
+ .join:hover {
+    background: #721BCA;
+    border-radius: 10.7703px;
+    color: #fff;
+    border-color: #721BCA;
+ }
+
+.profile_section {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+    margin-top: 70px;
+    padding-left: 500px;
+
+}
+
+#name {
+    color: #c28df2;
+}
+.avatar
+{
+    display: flex;
+    flex-direction:column ;
+}
+/*.profile_img {
+    position: absolute;
+width: 150px;
+height: 15px;
+padding-top: 30px;
+
+}*/
+
+.profil_ul{
+    font-weight: bold;
+    font-size: medium;
+    align-items: center;
+    row-gap: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+footer {
+    width: 100vw;
+    height: 40vh;
+    background-color: #c28df2;
+    font-family: Poppins, sans-serif;
+    margin-top: 10px;
+  }
+  .footer-items {
+    width: 80%;
+    height: 75%;
+    margin-left: 10%;
+    display: flex;
+    border-bottom: 2px solid #000000;
+  }
+  .company {
+    width: 20vw;
+    height: 100%;
+  }
+  .help {
+    width: 20vw;
+    height: 100%;
+  }
+  .resources {
+    width: 20vw;
+    height: 100%;
+  }
+  .installApp {
+    width: 20vw;
+    height: 100%;
+  }
+  .installApp p {
+    color: #ffffff;
+  }
+  .copyright {
+    width: 100%;
+    height: 25%;
+    background-color: #c28df2;
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer-items ul {
+    height: 80%;
+    width: 80%;
+    margin-left: 10%;
+    font-size: 14px;
+  }
+  .footer-items ul li {
+    margin-top: 10px;
+    list-style: none;
+  }
+  .footer-items ul li a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  .icon-box {
+    width: 150px;
+    height: 50px;
+  }
+  .icon-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .apple-icon-box {
+    width: 150px;
+    height: 50px;
+  }
+  .apple-icon-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .footer-items p {
+    margin-top: 10px;
+    margin-left: 10%;
+    font-weight: 600;
+  }
+  .copyright-text {
+    color: #ffffff;
+    margin-left: 10%;
+    margin-top: 20px;
+  }
+  .social-icons {
+    margin-right: 10%;
+    margin-top: 20px;
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+  }
