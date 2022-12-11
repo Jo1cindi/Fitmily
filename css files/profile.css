@@ -7,6 +7,9 @@
     box-sizing: border-box;
     width: vw;
 }
+body{
+    overflow-x: hidden;
+}
 
 .nav_header {
     width: vw;

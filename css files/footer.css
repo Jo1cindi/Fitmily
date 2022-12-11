@@ -17,21 +17,49 @@ footer {
   width: 20vw;
   height: 100%;
 }
+.company li{
+  list-style: none;
+  margin-left: 20px;
+}
+.company li a{
+  text-decoration: none;
+  color: #ffffff;
+}
 .help {
   width: 20vw;
   height: 100%;
+}
+.help li{
+  list-style: none;
+  margin-left: 20px;
+}
+.help li a{
+  text-decoration: none;
+  color: #ffffff;
 }
 .resources {
   width: 20vw;
   height: 100%;
 }
+.resources li{
+  list-style: none;
+  margin-left: 20px;
+}
+.resources li a{
+  text-decoration: none;
+  color: #ffffff;
+}
 .installApp {
   width: 20vw;
   height: 100%;
 }
+.installApp li{
+  list-style: none;
+}
 .installApp p {
   color: #ffffff;
 }
+
 .copyright {
   width: 100%;
   height: 25%;
