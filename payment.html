@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./payment.css">
+    <title>Payment</title>
+</head>
+  <body>
+<!--   header     -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid d-flex d-flex justify-content-around">
+          <a class="navbar-brand" href="#"
+            ><img src="images/Frame 32.png" alt="logo"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Consultation with AI coach</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Training</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Tracker</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Nutritional Plan</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Community chat</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Profile</a
+                >
+              </li>
+            </ul>
+            <form class="d-flex">
+              <button class="btn btn-outline-success sign_in" type="submit">
+                Sign-in
+              </button>
+              <button class="btn btn-outline-success join" type="submit">
+                Join Fitmily
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+      
+      <main>
+        <!-- collapse button -->
+        <div class="d-grid gap-2 col-8 col-xs-4 mx-auto mt-5">
+          <button class="collapse-btn btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+            <div class="form-head d-flex justify-content-between">
+              <div class="form-text">
+                <h5 class="text-center">CREDIT & DEBIT CARD </h5>
+                <p class="text-center">Transiction fee may apply</p>
+              </div>
+              <div class="form-images mx-auto">
+                <img src=".//Images/Visa_Logo.png" alt="visa">
+                <img src=".//Images/1200px-Verve_Image.png" alt="verve">
+                <img src=".//Images/mastercardnobg.png" alt="">
+              </div>
+            </div>
+          </button>
+          <div class="collapse" id="collapseExample">
+            <section>
+              <div class="form mx-auto" id="entry">
+                <div class=" mb-3">
+                  <label for="formGroupExampleInput" class="form-label">Cardholder Name</label>
+                  <input type="text" class="form-control rounded-3 border-3" id="formGroupExampleInput">
+                </div>
+
+                <div class="mb-3">
+                  <label for="formGroupExampleInput2" class="form-label">Card Number</label>
+                  <input type="text" class="form-control rounded-3 border-3" id="formGroupExampleInput2">
+                </div>
+            
+                 <div class="form-check my-4">
+                   <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                   <label class="form-check-label" for="flexCheckDefault">I have read and accept the terms of use, rules of flight and privacy policy </label>
+                 </div>
+
+                      <div class="card-details d-flex my-4">
+                    <div class="col ">
+                     <label class="" for="expiery-date">Expiery</label>
+                     <input class="form-input" type="date" value="" id="expiery-date">
+                    </div>
+                     <div>
+                        <input class="form-input" type="text" value="" id="ccv" placeholder="CCV">
+                     </div>
+                     <div class="form-check ms-2">
+                       <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                       <label class="form-check-label" for="flexRadioDefault1">3 digits</label>
+                      </div>
+                     </div>
+
+                      <div>
+                        <button class="btn btn-primary fw-bolder fs-4" type="button">PAY NOW</button>
+                      </div>
+                  </div>
+            </section>
+          </div>
+
+                        <button class="collapse-btn btn btn-primary d-flex justify-content-between" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                          <div><h5 class="text-center">Online Banking & Direct Debit </h5>
+                            <p class="text-center">free of charge</p>
+                          </div>
+                          <div><img src=".//Images/online-bank.jpg" alt=""></div>
+                        </button>
+                        <button class="collapse-btn btn btn-primary d-flex justify-content-between" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                          <h5 class="fw-bolder">Pay with Paypal</h5>
+                          <div><img src=".//Images/paypal-784404_1280.webp" alt=""></div>
+                        </button>
+                    </div>
+
+      </main>
+      <!-- <footer></footer> -->
+ 
+    <footer class="text-center text-lg-start  ">
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+          <!-- Grid row -->
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <!-- Content -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                Company
+              </h6>
+              <p><a href="#!" class="text-reset">About</a></p>
+              <p><a href="#!" class="text-reset">Features</a></p>
+              <p><a href="#!" class="text-reset">Works</a></p>
+              <p><a href="#!" class="text-reset">Career</a></p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">Help</h6>
+              <p>
+                <a href="#!" class="text-reset">Custmer Support</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Delivery Details</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Terms & Conditions </a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Privacy Policy</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">Resources</h6>
+              <p>
+                <a href="#!" class="text-reset">FreeeBooks</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Development Tutorial</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">How to - Blog</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Youtube Playlist</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">Instaall Apps</h6>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+      </section>
+      <!-- Section: Links  -->
+
+      <!-- Copyright -->
+      <div
+        class="text-center p-4"
+        style="background-color: rgba(0, 0, 0, 0.05)"
+      >
+        © 2022 Copyright:
+        <a class="text-reset fw-bold" href="https://mdbootstrap.com/"
+          >All rights reserved for clarity UI</a
+        >
+      </div>
+
+      <!--<div>
+        <a href="" class="me-4 text-reset">
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+      </div>
+      
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-github"></i>
+        </a>
+       -->
+
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+  
+
+
+
+
+
+
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</body>
+</html>
