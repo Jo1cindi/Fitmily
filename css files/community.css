@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.top-section{
+    background-image: url("../Images/support-high-five-black-woman-running-team-winner-athlete-practice-stadium-congratulations-motivation-success-workout-training-with-happy-joyful-fitness-friends_590464-86789.webp");
+    height: 60vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.top-section h1{
+    padding-top: 7rem;
+}
+
+.second-section{
+    background-color:#c28df2;;
+    height: 6rem;
+}
+.second-section h3{
+    padding-top: 1.5rem;
+}
+.container img{
+    border: 2px solid #c28df2;;
+    border-radius: 35px;
+}
+
+h4{
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+  
