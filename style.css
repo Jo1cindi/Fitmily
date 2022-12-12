@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Pacifico&display=swap');
+
+* {margin:0;
+padding: 0;
+ font-family:'poppins'}
+
+h2 {
+    justify-content: center;
+    text-align: center;
+    color: black;
+    font-weight: 300;
+    font-family: sans-serif;
+}
+
+.flex-part {
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+
+    justify-content: center;
+}
+
+
+.first-blog {
+    border-radius: 10px;
+    background-color: #C28DF2;
+}
+
+
+
+.weigh-loss {
+    padding: 10px;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+.second-blog {
+    border-radius: 10px;
+    background-color: #C28DF2;
+    height: 100%;
+}
+
+.weight-gain {
+    padding: 10px;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+
+
+.Text-1 {
+    justify-content: center;
+    text-align: center;
+}
+
+.Text-2 {
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+button{
+    padding: 10px 0px;
+    border-bottom: 4px solid #721BCA ;
+    justify-content: center;
+    margin-left: 5rem;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    width: 240px;
+    color:  #721BCA;
+    background-color: white;
+}
+
+
+.second-div {
+    background-image: url(/Frame\ 53.png);
+    width: 100%;
+    height: 60vh;
+    padding: 2px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+
+.second-div button {
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+    margin-left: 28rem;
+    background-color:  #721BCA;
+    color: white;
+    font-size: 28px;
+    font-weight: 100;
+    padding: 10px 10px;
+    border-radius: 20px ;
+}
+
+   .select-div button:active  { background-color: white;
+                 transition: 0.7s;
+                 outline-color:transparent;
+
+
+
+   }
+
+
+   
+
+
+
+@media screen and (max-width:600px )
+       {
+         .flex-part {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+    
+}
+
+.second-div button {margin-inline: center;
+                   margin-left:10rem ;
+                   width:30%;
+                  display:inline;}
+  
+       }
