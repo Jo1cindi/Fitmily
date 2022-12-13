@@ -108,8 +108,18 @@ p{
 }
 
 .p-links {
-    text-decoration:non;
+    text-decoration: none;
  color : black ;}
+
+.p-links:hover{
+  color: #721bca;
+
+}
+
+.p-links:visited{
+  color: #721bca;
+}
+
 .profil_ul{
     font-weight: bold;
     font-size: medium;
