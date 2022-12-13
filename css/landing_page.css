@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;500;600;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -9,16 +11,19 @@ body {
   overflow-x: hidden;
 }
 nav {
+  position: absolute;
   width: 100vw;
   height: 10vh;
   display: flex;
   justify-content: space-between;
-  background-image: radial-gradient(circle 1000px, #e0ccf0, #c28df2);
+  bottom: 90vh;
+  z-index: 99;
 }
 .logo-box {
   height: 80%;
   width: 10%;
   margin-top: 1vh;
+  background-image: url("/images/Frame\ 32.png");
 }
 .nav-links {
   width: 65%;
@@ -72,34 +77,45 @@ nav {
   color: #ffffff;
 }
 
-section {
+.landing-page {
   /* position: relative; */
-  width: 100%;
+  width: 100vw;
   height: 100vh;
-  background-image: radial-gradient(circle 1000px, #e0ccf0, #c28df2);
+  background-color: #721bca;
 }
-.imageBox {
-  width: 65%;
-  height: 120%;
-  margin-left: 15%;
+.background-image {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
 }
-.imageBox img {
-  width: 115%;
-  height: 120%;
-  object-fit: cover;
-}
-main {
+.image-overlay {
   position: absolute;
   width: 100%;
+  height: 100%;
+  background-color: rgba(114, 27, 202, 0.2);
+  z-index: 1;
+}
+.background-image img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.landing-page-content {
+  position: absolute;
+  width: 70%;
   height: 80%;
   top: 10%;
   font-family: Poppins, sans-serif;
+  color: #ffffff;
+  margin-left: 20%;
+  z-index: 99;
 }
 .text-box h1 {
   margin-top: 3rem;
   margin-left: 3rem;
   font-size: 40px;
-  width: 40%;
+  width: 70%;
 }
 .text-box p {
   width: 38%;
@@ -115,6 +131,7 @@ main {
   margin-top: 2rem;
   margin-left: 3rem;
   display: flex;
+  z-index: 99;
 }
 .getStartedBtn {
   width: 180px;
@@ -137,7 +154,7 @@ main {
   margin-top: 12px;
 }
 .getStartedBtn i {
-  margin-top: 18px;
+  margin-top: 16px;
 }
 .learnMoreBtn {
   width: 180px;
@@ -145,9 +162,9 @@ main {
   display: flex;
   text-align: center;
   cursor: pointer;
-  border: 2px solid #721bca;
+  border: 2px solid #ffffff;
   outline: none;
-  color: #721bca;
+  color: #ffffff;
   font-family: Poppins, sans-serif;
   border-radius: 30px;
   background: none;
@@ -158,6 +175,7 @@ main {
   margin-right: 10px;
   margin-top: 12px;
   font-weight: 600;
+  color: #ffffff;
 }
 .learnMoreBtn a {
   text-decoration: none;
@@ -167,16 +185,15 @@ main {
   margin-top: 18px;
 }
 
-
-
 /* Learn More */
 .learn-more {
   position: absolute;
   width: 100vw;
-  height: 100vh;
-  z-index: 99;
   font-family: Poppins, sans-serif;
-  background-color: #ffffff;
+}
+.learn-more-section1 {
+  width: 100%;
+  height: 100vh;
 }
 .learn-more h3 {
   margin-top: 10px;
@@ -203,15 +220,15 @@ main {
   width: 30%;
   height: 100%;
 }
-.learn-more-text-box{
-   width: 100%;
-   height: 40%;
-   margin-top: 20px;
+.learn-more-text-box {
+  width: 100%;
+  height: 40%;
+  margin-top: 20px;
 }
-.learn-more-text-box h5{
-    text-align: center;
-    font-size: 20px;
-    margin-bottom: 10px;
+.learn-more-text-box h5 {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 10px;
 }
 .image-box-1 {
   width: 100%;
@@ -242,14 +259,175 @@ main {
   height: 100%;
   object-fit: contain;
 }
-.get-started-btn{
-    width: 180px;
-    height: 50px; 
-    margin: auto;
+.get-started-btn {
+  width: 180px;
+  height: 50px;
+  margin: auto;
 }
-.learn-more-section2{
-    width: 100vw;
-    height: 20vh;
-    background-color: lightpink;
+.learn-more-section-2 {
+  width: 100%;
+  height: 15vh;
+  background-color: #721bca;
+  display: flex;
+  justify-content: space-around;
+}
+.p-1 {
+  margin-top: 10px;
+  font-weight: bold;
+  padding-top: 10px;
+  font-size: 16px;
+  text-align: center;
+}
+.p-2 {
+  font-weight: bold;
+  margin-top: 0px;
+  font-size: 16px;
+  text-align: center;
+}
+.device-icons {
+  width: 20%;
+  height: 80%;
+  margin-top: 2vh;
+  display: flex;
+  justify-content: space-between;
+}
+.device-icons i {
+  margin-top: 10px;
+  font-size: 50px;
 }
 
+.learn-more-section-3 {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+}
+.section-3-text {
+  width: 40%;
+  height: 30%;
+  margin-top: 3rem;
+  text-align: center;
+}
+.section-3-text h6 {
+  font-size: 16px;
+}
+.star-reviews {
+  width: 120px;
+  height: 20px;
+  margin: auto;
+}
+.star-reviews i {
+  color: goldenrod;
+}
+.customer-pics {
+  width: 50%;
+  height: 80%;
+  border-top-left-radius: 40px;
+  margin-top: 3rem;
+  background-image: url("/images/Rectangle\ 113.png");
+}
+.testimonials {
+  position: absolute;
+  width: 80vw;
+  height: 35vh;
+  margin: auto;
+  z-index: 99;
+  bottom: 5vh;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+.testimonial {
+  width: 30%;
+  height: 100%;
+  background-color: #d9d9d9;
+  border-radius: 20px;
+  border: 2px solid #721bca;
+}
+.testimonial-text p {
+  padding-top: 20px;
+  height: 120px;
+}
+.client {
+  margin-top: 20px;
+  text-align: right;
+  margin: 20px;
+  font-weight: bold;
+  font-size: 16px;
+  color: #721bca;
+}
+
+/* footer */
+footer {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  border-radius: 100px 100px 0 0;
+}
+.footer-background {
+  width: 100%;
+  height: 100%;
+  border-radius: 100px 100px 0 0;
+}
+.footer-background img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 100px 100px 0 0;
+}
+.image-overlay2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #721bca;
+  opacity: 0.7;
+  border-radius: 100px 100px 0 0;
+}
+.footer-content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  bottom: 0vh;
+  border-radius: 100px 100px 0 0;
+}
+.footer-content h2 {
+  margin-top: 20px;
+  text-align: center;
+}
+.footer-content p {
+  margin-top: 30px;
+}
+.footer-content form {
+  width: 60%;
+  height: 20%;
+  margin: auto;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+}
+.footer-content form button {
+  width: 150px;
+  height: 35px;
+  font-family: 12px;
+  cursor: pointer;
+  border: none;
+  opacity: 0.4;
+  border-radius: 10px;
+  margin-left: 40%;
+}
+.footer-content form button a {
+  padding-bottom: 10px;
+}
+.footer-logo {
+  color: #ffffff;
+  font-family: "Pacifico", cursive;
+  font-size: 40px;
+}
+.footer-icons {
+  width: 10%;
+  height: 10%;
+  margin: auto;
+  display: flex;
+  font-size: 40px;
+  justify-content: space-around;
+}
