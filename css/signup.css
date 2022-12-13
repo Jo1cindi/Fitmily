@@ -112,3 +112,12 @@ header .logo img{
     color: #000000;
     border: 1px solid #000000;
 }
+button a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 14px;
+}
+button a:hover{
+    color: #FFFFFF;
+}
