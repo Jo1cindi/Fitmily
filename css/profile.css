@@ -106,6 +106,10 @@ padding-top: 30px;
 p{
   text-align: center;
 }
+
+.p-links {
+    text-decoration:non;
+ color : black ;}
 .profil_ul{
     font-weight: bold;
     font-size: medium;
