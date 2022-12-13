@@ -90,23 +90,21 @@ nav{
     color: #c28df2;
 }
 
-#profile_img {
+.profile-img {
     position: absolute;
 width: 150px;
 height: 15px;
 padding-top: 30px;
-
 }
+
+.rounded-circle {
+  border: solid;
+  border-color: #721bca;
+  padding: 1.5px;
+  border-width: 5px;}
 
 p{
   text-align: center;
-}
-a{
-  text-decoration: none;
-  color: #000;
-}
-a:hover{
-  color: #721bca;
 }
 .profil_ul{
     font-weight: bold;
