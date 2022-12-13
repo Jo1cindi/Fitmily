@@ -23,7 +23,10 @@ nav {
   height: 80%;
   width: 10%;
   margin-top: 1vh;
-  background-image: url("/images/Frame\ 32.png");
+  color: #ffffff;
+  font-family: "Pacifico", cursive;
+  font-size: 30px;
+  margin-left: 1rem;
 }
 .nav-links {
   width: 65%;
