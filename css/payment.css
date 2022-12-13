@@ -7,6 +7,9 @@
     font-family: 'Poppins', sans-serif;
 
 }
+body{
+    overflow-x: hidden;
+}
 img{
     display: block;
     width: 100%;
@@ -18,6 +21,7 @@ body {
 main{
     width: 98%;
     margin-inline: auto;
+    margin-bottom: 20px;
 }
 .collapse-btn{
     background-color: #C28DF2;

@@ -16,6 +16,7 @@
       crossorigin="anonymous"
     />
     <link href="/css/nav_style.css" rel="stylesheet" />
+    <link href="/css/footer.css" rel="stylesheet" />
     <script defer src="/js/active-links.js"></script>
     <title>Document</title>
   </head>
@@ -27,26 +28,17 @@
        <img src="/images/Frame%2032.png" alt="logo"/>
       </div>
       
-      <div class="nav-links">
+      <div class="nav-links" id="nav-links">
         <ul>
           <li><a  href="index.html">Home</a></li>
           <li><a  href="#">Consultation with AI coach</a></li>
           <li><a  href="training.html">Training</a></li>
           <li><a href="#">Tracker</a></li>
-          <li><a class="active" href="../nutrition-plan.html">Nutritional Plan</a></li>
-          <li><a href="#">Community chat</a></li>
+          <li><a class="active" href="nutrition-plan.html">Nutritional Plan</a></li>
+          <li><a href="community.html">Community chat</a></li>
+          <li><a href="#">Merchandise</a></li>
           <li><a href="profile.html">Profile</a></li>
         </ul>
-      </div>
-
-      <div class="navbar-btns">
-        <form>
-          <input type="submit" value="Sign in" class="sign-in-btn"/>
-        </form>
-        <form>
-          <input type="submit" value="Login" class="login-btn"/>
-        </form>
-        
       </div>
     </nav>
 
@@ -161,8 +153,8 @@
     <footer>
       <div class="footer-items">
         <div class="company">
-          <p>Company</p>
           <ul>
+            <li class="item-title">Company</li>
             <li><a href="#">About</a></li>
             <li><a href="#">Features</a></li>
             <li><a href="#">Works</a></li>
@@ -170,8 +162,8 @@
           </ul>
         </div>
         <div class="help">
-          <p>Help</p>
           <ul>
+            <li class="item-title">Help</li>
             <li><a href="#">Customer Support</a></li>
             <li><a href="#">Delivery Details</a></li>
             <li><a href="#">Terms and Conditions</a></li>
@@ -179,8 +171,8 @@
           </ul>
         </div>
         <div class="resources">
-          <p>Resources</p>
           <ul>
+            <li class="item-title">Resources</li>
             <li><a href="#">Free Ebooks</a></li>
             <li><a href="#">Development Tutorial</a></li>
             <li><a href="#">How to - Blog</a></li>
@@ -188,29 +180,29 @@
           </ul>
         </div>
         <div class="installApp">
-          <p>Install App</p>
           <ul>
+            <li class="item-title">Install App</li>
             <li>
               <div class="icon-box">
                 <img src="/images/google-play-badge.png" />
               </div>
             </li>
             <li>
-              <div class="apple-icon-box">
+              <div class="icon-box">
                 <img src="/images/applestore.png" />
               </div>
             </li>
           </ul>
         </div>
       </div>
-      <div class="copyright">
-        <div class="copyright-text">
+      <div id="copyright">
+        <div id="copyright-text">
           <p>
             <i class="fa-regular fa-copyright"></i> Copyright 2022, All rights
             reserved by ClarityUI
           </p>
         </div>
-        <div class="social-icons">
+        <div id="social-icons">
           <i class="fa-brands fa-twitter"></i>
           <i class="fa-brands fa-facebook"></i>
           <i class="fa-brands fa-instagram"></i>
@@ -218,6 +210,7 @@
         </div>
       </div>
     </footer>
+
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
       integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"

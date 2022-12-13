@@ -23,6 +23,9 @@ section a{
     text-decoration: none;
     color: black;
 }
+section a:hover{
+    color: #721BCA;
+}
 section h4{
     margin-bottom: 20px;
 }

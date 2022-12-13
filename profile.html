@@ -11,6 +11,14 @@
       crossorigin="anonymous"
     />
     <link href="css/profile.css" rel="stylesheet" />
+    <!-- Make use to include this in your code (css file for the footer) -->
+    <link rel="stylesheet" href="/css/footer.css" />
+    
+    <!-- Font awesome social media-icons -->
+    <link
+    rel="stylesheet"
+    href="//use.fontawesome.com/releases/v6.2.1/css/all.css"
+  />
     <link
     rel="stylesheet"
     href="//use.fontawesome.com/releases/v6.2.1/css/all.css"
@@ -25,27 +33,23 @@
           <img src="images/Frame%2032.png" alt="logo" />
         </div>
 
-        <div class="nav-links">
+        <div class="nav-links"  id="nav-links">
           <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="#">Consultation with AI coach</a></li>
-            <li><a href="training.html" class="active">Training</a></li>
+            <li><a href="training.html">Training</a></li>
             <li><a href="Tracker.html">Tracker</a></li>
             <li>
-              <a href="nutrition-plan.html" class="active">Nutritional Plan</a>
+              <a href="nutrition-plan.html">Nutritional Plan</a>
             </li>
-            <li><a href="#" class="active">Community chat</a></li>
+            <li><a href="community.html">Community chat</a></li>
+            <li><a href="#">Merchandise</a></li>
             <li><a href="profile.html" class="active">Profile</a></li>
           </ul>
         </div>
 
         <div class="navbar-btns">
-          <form>
-            <input type="submit" value="Sign in" class="sign-in-btn" />
-          </form>
-          <form>
-            <input type="submit" value="Login" class="login-btn" />
-          </form>
+          
         </div>
       </nav>
     </header>
@@ -58,78 +62,80 @@
 
 <h5 class="mb-2" id="name">Dorathy Mackenzy</h5>
 </div>
-<div "profil_ul">
+<div class="profil_ul">
       <p><strong> Progress</strong></p>
       <p><strong>Update Bio</strong></p>
-      <p><strong>Premium Membership</strong></p>
+      <a href="/payment.html"><p><strong>Premium Membership</strong></p></a>
       <p><strong>Invite Friends</strong></p>
-      <p><strong>Sign Out</strong></p>
+      <a href="/index.html"><p><strong>Sign Out</strong></p></a>
   </div>
 </section>
     
   </main>
 
 
-      <footer>
-        <div class="footer-items">
-          <div class="company">
-            <p>Company</p>
-            <ul class="footer-links">
-              <li class="footer-link"><a href="#">About</a></li>
-              <li><a href="#">Features</a></li>
-              <li><a href="#">Works</a></li>
-              <li><a href="#">Careers</a></li>
-            </ul>
-          </div>
-          <div class="help">
-            <p>Help</p>
-            <ul class="footer-links">
-              <li><a href="#">Customer Support</a></li>
-              <li><a href="#">Delivery Details</a></li>
-              <li><a href="#">Terms and Conditions</a></li>
-              <li><a href="#">Privacy Policy</a></li>
-            </ul>
-          </div>
-          <div class="resources">
-            <p>Resources</p>
-            <ul class="footer-links">
-              <li><a href="#">Free Ebooks</a></li>
-              <li><a href="#">Development Tutorial</a></li>
-              <li><a href="#">How to - Blog</a></li>
-              <li><a href="#">Youtube Playlist</a></li>
-            </ul>
-          </div>
-          <div class="installApp">
-            <p>Install App</p>
-            <ul class="footer-links">
-              <li>
-                <div class="icon-box">
-                  <img src="/images/google-play-badge.png" />
-                </div>
-              </li>
-              <li>
-                <div class="apple-icon-box">
-                  <img src="/images/applestore.png" />
-                </div>
-              </li>
-            </ul>
-          </div>
+      
+    <!-- Footer -->
+    <footer>
+      <div class="footer-items">
+        <div class="company">
+          <ul>
+            <li class="item-title">Company</li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Works</a></li>
+            <li><a href="#">Careers</a></li>
+          </ul>
         </div>
-        <div class="copyright">
-          <div class="copyright-text">
-            <p>
-              <i class="fa-regular fa-copyright"></i> Copyright 2022, All rights
-              reserved by ClarityUI
-            </p>
-          </div>
-          <div class="social-icons">
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-github"></i>
-          </div>
+        <div class="help">
+          <ul>
+            <li class="item-title">Help</li>
+            <li><a href="#">Customer Support</a></li>
+            <li><a href="#">Delivery Details</a></li>
+            <li><a href="#">Terms and Conditions</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
         </div>
-      </footer>
+        <div class="resources">
+          <ul>
+            <li class="item-title">Resources</li>
+            <li><a href="#">Free Ebooks</a></li>
+            <li><a href="#">Development Tutorial</a></li>
+            <li><a href="#">How to - Blog</a></li>
+            <li><a href="#">Youtube Playlist</a></li>
+          </ul>
+        </div>
+        <div class="installApp">
+          <ul>
+            <li class="item-title">Install App</li>
+            <li>
+              <div class="icon-box">
+                <img src="/images/google-play-badge.png" />
+              </div>
+            </li>
+            <li>
+              <div class="icon-box">
+                <img src="/images/applestore.png" />
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id="copyright">
+        <div id="copyright-text">
+          <p>
+            <i class="fa-regular fa-copyright"></i> Copyright 2022, All rights
+            reserved by ClarityUI
+          </p>
+        </div>
+        <div id="social-icons">
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-github"></i>
+        </div>
+      </div>
+    </footer>
       
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
