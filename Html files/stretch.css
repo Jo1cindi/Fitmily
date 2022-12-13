@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora&family=Pacifico&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lora&family=Pacifico&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Lora&family=Pacifico&display=swap');
  @import url("https://fonts.googleapis.com/css2?family=Lora&family=Pacifico&display=swap");
 
@@ -66,7 +65,9 @@
 
 
 
-
+.arrow-left {padding: 20px;
+             font-size:13px;
+              font-weight: 100%;}
 
 h4 {
   font-size: 25px;
