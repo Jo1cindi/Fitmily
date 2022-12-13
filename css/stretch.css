@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Pacifico&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+body{
+  overflow-x: hidden;
+}
+.container-fluid {
+  
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+
+
+}
+
+.navbar-brand {
+  width: 152px;
+  height: 44px;
+  text-align: center;
+  color: #721BCA;
+  margin-bottom: 5px;
+}
+
+.navbar-nav {
+  margin-left: 50px;
+
+}
+
+.sign_in {
+  border-radius: 10.7703px;
+  color: #721BCA;
+  border-color: #721BCA;
+
+}
+
+.join {
+  background: #721BCA;
+  border-radius: 10.7703px;
+  color: #fff;
+  border-color: #721BCA;
+}
+
+.sign_in:hover {
+  border-radius: 10.7703px;
+  color: #721BCA;
+  border-color: #721BCA;
+  background: #fff;
+}
+
+.join:hover {
+  background: #721BCA;
+  border-radius: 10.7703px;
+  color: #fff;
+  border-color: #721BCA;
+}
+
+h4 {
+  font-size: 25px;
+  margin-top: 100px;
+}
+
+.stretch-grid {
+  display: grid;
+  padding: 50px;
+
+}
+.arrow-left{
+  margin-left: 2rem;
+}
+.arrow-left a{
+  text-decoration: none;
+  color: #000000;
+}
+.arrow-left a:hover{
+  color: #721BCA;
+}
+
+p2 {
+  position: relative;
+  margin-top: 10px;
+  font-size: 20px;
+  margin-left: 10rem;
+  font-weight: 600;
+}
+
+
+img {
+  border-radius: 19px;
+}
+
+.text_stretch {padding: 20px;
+          font-weight: bold;}

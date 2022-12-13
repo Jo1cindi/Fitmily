@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+}
+a:hover{
+    color: #721BCA;
+}
+a:active{
+    color: blue;
+}
+img{
+    display: block;
+}
+body{
+    max-width: 100vw;
+    height: 100vh;
+    background-image: url("/images/Sign In.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main {
+    width: 90vw;
+    height: 85vh;
+    background-color: rgba(114, 27, 202, 0.3);
+    border-radius: 20px;
+
+}
+header section footer{
+    max-width: 90%;
+}
+header .logo img{
+    width: 150px;
+    height: 40px;
+}
+.signup h3{
+    color: #721BCA;
+    font-weight: 500;
+}
+
+.signup p{
+    font-size: 12px;
+    font-weight: 400;
+    color: #FFFFFF;
+    width: 25rem;
+
+}
+.form-div{
+    width: 50%;
+    margin-inline: auto;
+    padding: 1rem;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+.form-div .input{
+    width: 100%;
+    height: 40px;
+    padding: 10px 10px 10px 60px;
+    text-align:start;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-bottom: 3px solid #FFFFFF;
+    border-radius: 15px;
+    
+
+}
+.input::-webkit-input-placeholder{
+    color: #FFFFFF;
+}
+:focus::-webkit-input-placeholder{
+    color: #721BCA;
+}
+ 
+.icon{
+    position: absolute;
+    font-size: 1.3rem;
+    color: #FFFFFF;
+    left: 40px;
+    margin-top: 15px;
+}
+.sign-up .btn{
+    background-color: #721BCA;
+    color: #FFFFFF;
+    font-weight: 600;
+    border-color: #721BCA;
+    margin-bottom: 10px;
+}
+ h6{
+    color: #000000;
+    font-weight: 400;
+    margin-right: 5px;
+}
+.login p{
+    color: #FFFFFF;
+    font-weight: 400;
+}
+.footer{
+    width: 400px;
+    margin-inline: auto;
+}
+.footer i{
+    color: #000000;
+    border: 1px solid #000000;
+}
+button a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 14px;
+}
+button a:hover{
+    color: #FFFFFF;
+}
