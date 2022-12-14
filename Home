@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/landing_page.css" />
+    <link
+      rel="stylesheet"
+      href="//use.fontawesome.com/releases/v6.2.1/css/all.css"
+    />
+    <title>Fitmily</title>
+  </head>
+  <body>
+    <!-- Landing page body -->
+    <section class="landing-page">
+      <div class="background-image">
+        <header>
+          <!-- Navigation Bar -->
+          <nav>
+            <div class="logo-box">Fitmily</div>
+          </nav>
+        </header>
+        <div class="image-overlay"></div>
+        <img src="/images/Sign In.png" />
+      </div>
+      <div class="landing-page-content">
+        <div class="text-box">
+          <h1>Let's help you achieve your body goals</h1>
+          <p>
+            Get your perfect boody with the perfect workouts. Reach your goal
+            with help from our top AI consultants.
+          </p>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Learn More Section1 -->
+    <div class="learn-more" id="learn-more">
+      <div class="learn-more-section1">
+        <h3>FITNESS on the GO</h3>
+        <p>
+          Join 10+ million members on the top digital fitness platform and stay
+          toned, lose weight, get strong, reduce stress, and reach your goals.
+        </p>
+
+        <div class="learn-more-visuals">
+          <div class="learn-more-pictures">
+            <!-- Image 1 -->
+            <div class="image">
+              <div class="image-box-1"></div>
+              <div class="learn-more-text-box">
+                <h5>Best Workouts</h5>
+                <p>Train your mind and body with unlimited workout videos</p>
+              </div>
+            </div>
+
+            <!-- Image 2 -->
+            <div class="image">
+              <div class="image-box-2"></div>
+              <div class="learn-more-text-box">
+                <h5>Always On</h5>
+                <p>Anytime, anywhere. No equipment required.</p>
+              </div>
+            </div>
+
+            <!-- Image 3 -->
+            <div class="image">
+              <div class="image-box-3">
+                <div class="icon">
+                  <img src="/Images/icon-1.png" alt="icon-1" />
+                </div>
+                <div class="icon">
+                  <img src="/Images/icon-2.png" alt="icon-2" />
+                </div>
+                <div class="icon">
+                  <img src="/Images/icon-3.png" alt="icon-3" />
+                </div>
+              </div>
+
+              <div class="learn-more-text-box">
+                <h5>on the Go</h5>
+                <p>
+                  monitor your steps,sugar level and heart rate while outside
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="learn-more-section-2">
+        <div class="paragraph-text">
+          <h6 class="p-1">Work Out Anytime. Anywhere.</h6>
+          <h6 class="p-2">Stream to all your favorite devices.</h6>
+        </div>
+        <div class="device-icons">
+          <i class="fa-sharp fa-solid fa-laptop"></i>
+          <i class="fa-sharp fa-solid fa-laptop"></i>
+          <i class="fa-solid fa-tablet-screen-button"></i>
+          <i class="fa-solid fa-tablet-screen-button"></i>
+        </div>
+      </div>
+
+      <div class="learn-more-section-3">
+        <div class="section-3-text">
+          <h6>Join Our 10 Million+ members</h6>
+          <h6>Community</h6>
+          <h6>300K+ 5-star reviews</h6>
+          <div class="star-reviews">
+            <i class="fa-sharp fa-solid fa-star"></i>
+            <i class="fa-sharp fa-solid fa-star"></i>
+            <i class="fa-sharp fa-solid fa-star"></i>
+            <i class="fa-sharp fa-solid fa-star"></i>
+            <i class="fa-sharp fa-solid fa-star"></i>
+          </div>
+        </div>
+        <div class="customer-pics"></div>
+        <div class="testimonials">
+          <div class="testimonial">
+            <div class="testimonial-text">
+              <p>
+                best fitness app yet. As fitness classy, i’m obsessed with
+                fitmily
+              </p>
+              <div class="client">-ANGEL D</div>
+            </div>
+          </div>
+          <div class="testimonial">
+            <div class="testimonial-text">
+              <p>
+                i’ve had this app for just six months and it has been the most
+                life changing app i’ve encountered
+              </p>
+            </div>
+            <div class="client">-PRECIOUS A</div>
+          </div>
+          <div class="testimonial">
+            <div class="testimonial-text">
+              <p>
+                FITMILY is not just a workout but a lifestyle thanks FITMILY
+              </p>
+              <div class="client">-DAVID G</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="image-overlay2"></div>
+        <div class="footer-background">
+          <img
+            src="/images/support-high-five-black-woman-running-team-winner-athlete-practice-stadium-congratulations-motivation-success-workout-training-with-happy-joyful-fitness-friends_590464-86789.webp"
+          />
+        </div>
+        <div class="footer-content">
+          <h2>Take Your Fitness to the Next Level</h2>
+          <p>Get started with unlimited free workouts. Anytime. Anywhere.</p>
+
+          <form action="/signup.html">
+            <button>
+              <a>SIGN UP FOR FREE</a>
+            </button>
+          </form>
+
+          <div class="footer-logo">
+            <p>Fitmily</p>
+          </div>
+
+          <div class="footer-icons">
+            <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+          </div>
+
+          <p>Copyright © 2021 FitOn Inc. All Rights Reserved
+            privacy policy/terms</p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
