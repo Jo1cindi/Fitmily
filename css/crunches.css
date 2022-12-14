@@ -1,16 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&family=Pacifico&display=swap');
  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap")
 
-.back-btn{
-    text-decoration: none;
+#back-btn {
     color: #000000;
-    margin-left: 40px;
+    text-decoration: none;  
     
 }
-.back-btn:hover{
+#back-btn a:hover{
     color: #721bca;
 }
-.back-btn:visited{
+#back-btn a:visited{
     color: #721bca;
 }
 
@@ -18,7 +17,7 @@
     height: 300px;
     width: 100%;
     margin-bottom: 250px;
-    background-image: url(../images/Rectangle 80 (1).png);
+    background-image: url("../Images/Rectangle\ 80-1.png");
     background-repeat: no-repeat;
 }
 
