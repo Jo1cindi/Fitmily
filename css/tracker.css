@@ -1,0 +1,230 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+p {
+    margin: 0;
+}
+.date{
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-around;
+    color: #721BCA;
+    border: 1px solid #721BCA;
+    border-radius: 1rem;
+    margin: 3% auto;
+    /* padding: auto 50px; */
+}
+.dateCal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+.activeDate {
+    background: #721BCA;
+    padding: 0px 10px;
+    color: #FFFFFF;
+    border-radius: 4px;
+}
+.heart-image{
+    width: 233px;
+    height: 197px;
+}
+.step-image{
+    width: 233px;
+    height: 197px;
+}
+.calories-image{
+    width: 233px;
+    height: 197px; 
+}
+.detector{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.detector-child{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:  #721BCA;
+    width: 30%;
+    border-radius: 1rem;
+}
+.detector-child p{
+    color: white;
+}
+.tasks{
+    display: flex;
+    margin-top: 5rem;
+}
+.completed-tasks{
+    width: 50%;
+    padding-left: 3%;
+  
+}
+.completed-tasks h3{
+    margin: 40px auto 50px 2rem;
+    font-size: 30px;
+}
+.completed-tasks p{
+    margin-left: 4rem;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+.body-yoga-stretch{
+    width: 70%;
+}
+.body-workout{
+    display: flex;
+}
+.body-workout img{
+    width: 44px;
+}
+.yoga{
+    display: flex;
+    margin: 3rem auto;
+}
+.yoga img{
+    width: 44px;
+}
+.stretch{
+    display: flex;
+}
+.stretch img{
+    width: 44px;
+}
+.great-job{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.great-child{
+    border: 2px solid #721BCA;
+    border-radius: 1rem;
+    padding: 15%;
+    margin: 70px 5% 50px 10%;
+}
+h3, p{
+    font-family: "poppins";
+}
+.great{
+    color: #721BCA;
+    word-spacing: 0.2rem;
+    font-size: 1.2rem;
+}
+.great-burn{
+    margin: 30px 0 30px 18px;
+    font-size: 4rem;
+    letter-spacing: 0.2rem;
+    color: #721BCA;
+    font-weight: 700;
+}
+.great-steps{
+    margin-left: 6%;
+}
+@media screen and (max-width:771px){
+    .detector{
+        /* display: flex;
+        flex-direction: row; */
+        justify-content: unset;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+
+    }
+    .detector-child{
+        /* display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color:  #721BCA; */
+        width: 30%;
+        height: 20%;
+        border-radius: 1rem;
+    }
+    .step-image{
+        width: 190px;
+        height: 120px;
+    }
+    .calories-image{
+        width: 190px;
+        height: 120px; 
+    }
+    .heart-image{
+        width: 190px;
+        height: 120px;
+    }
+    .date{
+        margin: 9% 3%;
+    }
+    .great-child{
+        padding: 7%;
+        margin-left: 20%;
+        margin-right: 3%;
+    }
+    /* .yoga p{
+        margin-right: 7rem;
+    } */
+    /* .stretch p{
+        margin-right: 6rem;
+    } */
+}
+@media screen and (max-width:585px){
+    /* .tasks{
+        display: flex;
+        flex-direction: column;
+    } */
+    .great-child{
+        border-radius: 1rem;
+        padding: 3%;
+    }
+    .great{
+        font-size: unset;
+    }
+    .great-burn{
+        margin: unset;
+        font-size: 2rem;
+        letter-spacing: 0.2rem;
+        text-align: center;
+        font-weight: 700;
+    }
+    .completed-tasks{
+        width: 70%;
+    }
+    .completed-tasks h3{
+        text-align: center;
+    }
+}
+@media screen and (max-width:417px){
+    .detector{
+        display: flex;
+        flex-direction: column;
+    }
+    .tasks{
+        display: flex;
+        flex-direction: column;
+    }
+    .detector-child{
+        width: 50%;
+    }
+    .great-child{
+        padding: 20%;
+        margin-left: 8rem;
+    }
+    .all-completed-task{
+       margin-left: 2rem;
+    }
+    .completed-tasks p{
+        margin-left: 1rem;
+    }
+    .date{
+        display: flex;
+        flex-wrap: wrap;
+       
+    }
+}
