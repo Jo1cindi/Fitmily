@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Pacifico&display=swap');
+ @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap")
+
+#back-btn {
+    color: #000000;
+    text-decoration: none;  
+    
+}
+#back-btn a:hover{
+    color: #721bca;
+}
+#back-btn a:visited{
+    color: #721bca;
+}
+
+#pic {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 250px;
+    background-image: url("../images/Rectangle%80-1%(1).png");
+    background-repeat: no-repeat;
+}
+
+
+.bi{s
+    height: 50px;
+    width: 50px;
+    align-items: center;
+    padding-left: .3px;
+}
+.bi-play{
+    background-color: white;
+    border-radius: 50%;
+    margin: 130px 200px 130px 202px;
+    padding: 4px;
+
+}
+
+h5 {
+    font-weight: bold;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+}
+
+h2{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 59px;
+line-height: 90px;
+}
+
+
+footer {
+    width: 100vw;
+    height: 40vh;
+    background-color: #c28df2;
+    font-family: Poppins, sans-serif;
+    margin-top: 250px;
+  }
+  .footer-items {
+    width: 80%;
+    height: 75%;
+    margin-left: 10%;
+    display: flex;
+    border-bottom: 2px solid #000000;
+  }
+  .company {
+    width: 20vw;
+    height: 100%;
+  }
+  .company li{
+    list-style: none;
+    margin-left: 20px;
+  }
+  .company li a{
+    text-decoration: none;
+    color: #ffffff;
+  }
+  .help {
+    width: 20vw;
+    height: 100%;
+  }
+  .help li{
+    list-style: none;
+    margin-left: 20px;
+  }
+  .help li a{
+    text-decoration: none;
+    color: #ffffff;
+  }
+  .resources {
+    width: 20vw;
+    height: 100%;
+  }
+  .resources li{
+    list-style: none;
+    margin-left: 20px;
+  }
+  .resources li a{
+    text-decoration: none;
+    color: #ffffff;
+  }
+  .installApp {
+    width: 20vw;
+    height: 100%;
+  }
+  .installApp li{
+    list-style: none;
+  }
+  .installApp p {
+    color: #ffffff;
+  }
+  
+  .copyright {
+    width: 100%;
+    height: 25%;
+    background-color: #c28df2;
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer-items ul {
+    height: 70%;
+    width: 80%;
+    margin-left: 10%;
+    font-size: 14px;
+  }
+  .footer-items ul li{
+    margin-top: 10px;
+    list-style: none;
+  }
+  .footer-items ul li a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  .icon-box {
+    width: 150px;
+    height: 50px;
+  }
+  .icon-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .apple-icon-box {
+    width: 150px;
+    height: 50px;
+  }
+  .apple-icon-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .footer-items p {
+    margin-top: 10px;
+    margin-left: 10%;
+    font-weight: 600;
+  }
+  .copyright-text {
+    color: #ffffff;
+    margin-left: 10%;
+    margin-top: 20px;
+  }
+  .social-icons {
+    margin-right: 10%;
+    margin-top: 20px;
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+  }
