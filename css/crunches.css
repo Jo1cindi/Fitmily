@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&family=Pacifico&display=swap');
- @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap")
+ @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 
+body{
+  overflow-x: hidden;
+} 
 #back-btn {
     color: #000000;
     text-decoration: none;  
@@ -20,8 +23,110 @@
     background-image: url("../Images/Rectangle\ 80-1.png");
     background-repeat: no-repeat;
 }
-
-
+#bi-pic{
+  height: 300px;
+    width: 100%;
+    margin-bottom: 250px;
+    background-image: url("../Images/Rectangle\ 80-1\ \(1\).png");
+    background-repeat: no-repeat;
+}
+#drun-pic{
+  height: 300px;
+    width: 100%;
+    margin-bottom: 250px;
+    background-image: url("../Images/Rectangle\ 80-2\ \(1\).png");
+    background-repeat: no-repeat;
+}
+#hs-pic{
+  height: 300px;
+    width: 100%;
+    margin-bottom: 250px;
+    background-image: url("../Images/Rectangle\ 80-2.png");
+    background-repeat: no-repeat;
+}
+#j-pic{
+  height: 300px;
+    width: 100%;
+    margin-bottom: 250px;
+    background-image: url("../Images/Rectangle\ 80-3.png");
+    background-repeat: no-repeat;
+}
+#k-pic{
+  height: 300px;
+    width: 100%;
+    margin-bottom: 250px;
+    background-image: url("../Images/Rectangle\ 80-3\ \(1\).png");
+    background-repeat: no-repeat;
+}
+#t-pic{
+  height: 300px;
+    width: 100%;
+    margin-bottom: 250px;
+    background-image: url("../Images/Rectangle\ 80\ \(2\).png");
+    background-repeat: no-repeat;
+}
+#s-pic{
+  height: 300px;
+    width: 100%;
+    margin-bottom: 250px;
+    background-image: url("../images/Rectangle\ 80\ \(1\).png");
+    background-repeat: no-repeat;
+}
+#l-pic{
+  height: 300px;
+    width: 100%;
+    margin-bottom: 250px;
+    background-image: url("../images/Rectangle\ 80-1\ \(2\).png");
+    background-repeat: no-repeat;
+}
+#p-pic{
+  height: 300px;
+    width: 100%;
+    margin-bottom: 250px;
+    background-image: url("../images/Rectangle\ 80-3.png");
+    background-repeat: no-repeat;
+}
+.video-timer{
+  width: 100%;
+  height: 10px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  color: #721bca;
+}
+.timer{
+  position: relative;
+  width: 90%;
+  height: 5px;
+  background-color: #721bca;
+  margin-top: 3px;
+  display: flex;
+}
+.circle{
+  position: absolute;
+  bottom: -1px;
+  left: 60%;
+  /* top: 0px; */
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #721bca;
+  z-index: 1;
+}
+.time-left{
+  position: absolute;
+  right: 0;
+  width: 39%;
+  height: 100%;
+  background-color: #c28df2;
+}
+.time-watched{
+  position: absolute;
+  left: 0;
+  width: 63%;
+  height: 100%;
+  background-color: #721bca;
+}
 .bi{
     height: 50px;
     width: 50px;
