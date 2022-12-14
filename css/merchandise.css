@@ -6,6 +6,9 @@
 .supplement{
     border: 5px solid rgba(114, 27, 202, 1);
 }
+body{
+    overflow-x: hidden;
+}
 
 
     
