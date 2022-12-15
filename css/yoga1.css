@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Pacifico&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h4 {
+  font-size: 2rem;
+  margin-top: 40px;
+  margin-left: 10%;
+  font-family: "poppins";
+}
+
+.stretch {
+  display: flex;
+  padding: 50px;
+
+}
+.arrow-left{
+  margin-left: 3rem;
+  margin-top: 2rem;
+  font-size: 1.2rem;
+}
+.arrow-left a{
+  text-decoration: none;
+  color: #000000;
+}
+.arrow-left a:hover{
+  color: #721BCA;
+}
+img {
+  border-radius: 19px;
+  margin: 0 19% 0 5%;
+}
+
+/* .text_stretch {padding: 20px;
+          font-weight: bold;} */
+.colon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "poppins";
+    font-weight: 500;
+    /* font-size: 1.5rem; */
+   
+}
+.colon :nth-child(1){
+    font-size: 1.5rem;
+}
+.colon :nth-child(2){
+    text-align: center;
+    font-size: 1.2rem;
+}

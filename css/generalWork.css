@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Pacifico&display=swap');
+ @import url("https://fonts.googleapis.com/css2?family=Lora&family=Pacifico&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  
+  
+}
+
+.container-fluid {
+  
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+
+
+}
+
+.navbar-brand {
+  width: 152px;
+  height: 44px;
+  text-align: center;
+  color: #721BCA;
+  margin-bottom: 5px;
+}
+
+.navbar-nav {
+  margin-left: 50px;
+
+}
+
+.sign_in {
+  border-radius: 10.7703px;
+  color: #721BCA;
+  border-color: #721BCA;
+
+}
+
+.join {
+  background: #721BCA;
+  border-radius: 10.7703px;
+  color: #fff;
+  border-color: #721BCA;
+}
+
+.sign_in:hover {
+  border-radius: 10.7703px;
+  color: #721BCA;
+  border-color: #721BCA;
+  background: #fff;
+}
+
+.join:hover {
+  background: #721BCA;
+  border-radius: 10.7703px;
+  color: #fff;
+  border-color: #721BCA;
+}
+
+
+
+
+
+
+.arrow-left {padding: 20px;
+             font-size:13px;
+              font-weight: 100%;}
+
+h2 {
+  font-size: 25px;
+  font-weight: 100%;
+}
+
+.stretch-grid {
+  display: grid;
+  padding: 50px;
+  gap: 50px;
+
+}
+
+
+p2 {
+  position: relative;
+  margin-top: 10px;
+  font-size: 20px;
+  margin-left:7rem;
+  font-weight: 600;
+}
+
+
+img { 
+  border-radius: 60px;
+
+}
+
+
+
+
+
+ p2{ position: absolute;
+    width:50;
+    background-color: #c28df2;
+height:60px;}
+
+
+span {margin-right: 200px;  }
+
+     
+          
+
+
+footer {
+  width: 100vw;
+  height: 40vh;
+  background-color: #c28df2;
+  font-family: Poppins, sans-serif;
+}
+.footer-items {
+  width: 80%;
+  height: 75%;
+  margin-left: 10%;
+  display: flex;
+  border-bottom: 2px solid #000000;
+}
+.company {
+  width: 20vw;
+  height: 100%;
+}
+.company li{
+  list-style: none;
+  margin-left: 20px;
+}
+.company li a{
+  text-decoration: none;
+  color: #ffffff;
+}
+.help {
+  width: 20vw;
+  height: 100%;
+}
+.help li{
+  list-style: none;
+  margin-left: 20px;
+}
+.help li a{
+  text-decoration: none;
+  color: #ffffff;
+}
+.resources {
+  width: 20vw;
+  height: 100%;
+}
+.resources li{
+  list-style: none;
+  margin-left: 20px;
+}
+.resources li a{
+  text-decoration: none;
+  color: #ffffff;
+}
+.installApp {
+  width: 20vw;
+  height: 100%;
+}
+.installApp li{
+  list-style: none;
+}
+.installApp p {
+  color: #ffffff;
+}
+
+.copyright {
+  width: 100%;
+  height: 25%;
+  background-color: #c28df2;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-items ul {
+  height: 70%;
+  width: 80%;
+  margin-left: 10%;
+  font-size: 14px;
+}
+.footer-items ul li{
+  margin-top: 10px;
+  list-style: none;
+}
+.footer-items ul li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.icon-box {
+  width: 150px;
+  height: 50px;
+}
+.icon-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.apple-icon-box {
+  width: 150px;
+  height: 50px;
+}
+.apple-icon-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.footer-items p {
+  margin-top: 10%;
+  font-weight: 600;
+}
+.copyright-text {
+  color: #ffffff;
+  margin-left: 10%;
+  margin-top: 20px;
+}
+.social-icons {
+  margin-right: 10%;
+  margin-top: 20px;
+  width: 10%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+}
