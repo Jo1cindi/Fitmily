@@ -9,6 +9,12 @@
 body{
     overflow-x: hidden;
 }
+h4{
+    color: rgba(114, 27, 202, 1);
+}
+.text-center a{
+    color: rgba(114, 27, 202, 1)
+}
 
 
     
