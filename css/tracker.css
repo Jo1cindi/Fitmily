@@ -49,15 +49,131 @@ p {
     justify-content: space-between;
 }
 .detector-child{
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color:  #721BCA;
     width: 30%;
+    height: 330px;
     border-radius: 1rem;
+    border: 2px solid #721BCA;
 }
-.detector-child p{
+.title-card{
+    position: absolute;
+    width: 60%;
+    height: 40px;
+    background-color: #721BCA;
+    top: -20px;
+    text-align: center;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+.title-card p{
+    padding-top: 8px;
+    color: #FFFFFF;
+}
+.bmi{
+    position: absolute;
+    top: 30px;
+    width: 80%;
+    height: 80%;
+}
+.bmi-image{
+    width: 100%;
+    height: 80px;
+}
+.bmi-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+form{
+    width: 100%;
+    height: 70%;
+}
+.radio-btns{
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    color: #721BCA;
+}
+.radio-btns input{
+    margin-top: 10px;
+}
+.radio-btns input{
+    accent-color: #721BCA;
+    border: 1px solid #721BCA;
+}
+#female{
+  margin-left: 20px;
+}
+#male{
+    margin-left: 20px;
+}
+.text-field{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    margin-bottom: 20px;
+}
+.text-field input{
+    width: 80%;
+    background: none;
+    border: 2px solid #721BCA;
+    border-radius: 5px;
+    outline: none;
+    padding-left: 5px;
+}
+.text-field label{
+    color: #721BCA;
+}
+.weight{
+    width: 50%;
+    flex-direction: column;
+}
+.height{
+    width: 50%;
+    flex-direction: column;
+}
+form button{
+    width: 150px;
+    height: 40px;
+    background-color: #721BCA;
+    border: none;
+    outline: none;
+    cursor: pointer;
     color: white;
+    border-radius: 10px;
+    margin-left: 50px;
+}
+#calories{
+    color: #721BCA;
+}
+#calories-box img{
+    position: absolute;
+    top: 30px;  
+}
+.fasting{
+    position: absolute;
+    top: 30px;
+    width: 80%;
+    height: 80%;
+    color: #721BCA;
+}
+.img-box{
+    width: 30%;
+    height: 50px;
+    display: flex;
+    margin-right: 10px;
+}
+.img-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.title-img{
+    width: 100%;
+    display: flex;
 }
 .tasks{
     display: flex;

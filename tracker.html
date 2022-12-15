@@ -19,15 +19,14 @@
     />
     <link rel="stylesheet" href="../css/tracker.css" />
     <link rel="stylesheet" href="/css/nav_style.css" />
-    <link rel="stylesheet" href="/css/footer.css"/>
-     <!-- Font awesome social media-icons -->
-     <link
-     rel="stylesheet"
-     href="//use.fontawesome.com/releases/v6.2.1/css/all.css"
-   />
+    <link rel="stylesheet" href="/css/footer.css" />
+    <!-- Font awesome social media-icons -->
+    <link
+      rel="stylesheet"
+      href="//use.fontawesome.com/releases/v6.2.1/css/all.css"
+    />
   </head>
   <body>
-
     <header>
       <!-- Navigation Bar -->
       <nav>
@@ -50,7 +49,7 @@
           </ul>
         </div>
       </nav>
-  </header>
+    </header>
     <section>
       <h3 class="text-center pt-4">Tracker</h3>
     </section>
@@ -106,34 +105,72 @@
       <div class="container">
         <div class="detector">
           <div class="detector-child heart">
-            <p>Heart Rate</p>
-            <img
-              src="../Images/Rectangle 84.svg"
-              alt="heart"
-              class="heart-image"
-            />
-            <p>72</p>
-            <p>bpm</p>
+            <div class="title-card">
+              <p>BMI Calculator</p>
+            </div>
+            <div class="bmi">
+              <div class="bmi-image">
+                <img src="/images/images (6).jpeg" />
+              </div>
+              <!-- Bmi Inputs -->
+              <form>
+                <div class="radio-btns">
+                  <input
+                    type="radio"
+                    name="gender"
+                    value="male"
+                    id="male"
+                    checked="checked"
+                  />
+                  <label for="male">Male</label>
+                  <input
+                    type="radio"
+                    name="gender"
+                    value="female"
+                    id="female"
+                  />
+                  <label for="female">Female</label>
+                </div>
+                <div class="text-field">
+                  <div class="weight">
+                    <label for="weight">Weight(Kg)</label><br />
+                    <input type="text" value="" id="weight" />
+                  </div>
+                  <div class="height">
+                    <label for="height">Height(cm)</label>
+                    <input type="text" value="" id="height" />
+                  </div>
+                </div>
+                <button>Calculate BMI</button>
+              </form>
+            </div>
           </div>
-          <div class="detector-child calories">
-            <p>Calories</p>
+          <div class="detector-child" id="calories-box">
+            <div class="title-card">
+              <p>Calories</p>
+            </div>
             <img
               src="../Images/Rectangle 83.svg"
               alt="heart"
               class="calories-image"
             />
-            <p>1,679</p>
-            <p>Calories</p>
+            <p id="calories">1,679</p>
+            <p id="calories">Calories</p>
           </div>
           <div class="detector-child steps">
-            <p class="text-center">Steps</p>
-            <img
-              src="../Images/Rectangle 82.svg"
-              alt="steps"
-              class="step-image"
-            />
-            <p>2,356</p>
-            <p>Steps</p>
+            <div class="title-card">
+              <p>Intermittent Fasting</p>
+            </div>
+            <div class="fasting">
+              <div class="fasting-days">
+                <div class="title-img">
+                  <div class="img-box">
+                    <img src="/images/images (10).jpeg" />
+                  </div>
+                  <p>9 hours fasting</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -184,8 +221,8 @@
       </div>
     </section>
 
-     <!-- Footer -->
-     <footer>
+    <!-- Footer -->
+    <footer>
       <div class="footer-items">
         <div class="company">
           <ul>
@@ -210,7 +247,12 @@
             <li class="item-title">Resources</li>
             <li><a href="#">Free Ebooks</a></li>
             <li><a href="#">Development Tutorial</a></li>
-            <li><a href="https://fitmily.wordpress.com/2022/12/13/the-recipe-for-a-healthy-life-how-eating-well-and-staying-active-can-keep-you-healthy/">How to - Blog</a></li>
+            <li>
+              <a
+                href="https://fitmily.wordpress.com/2022/12/13/the-recipe-for-a-healthy-life-how-eating-well-and-staying-active-can-keep-you-healthy/"
+                >How to - Blog</a
+              >
+            </li>
             <li><a href="#">Youtube Playlist</a></li>
           </ul>
         </div>
