@@ -58,6 +58,20 @@ p {
     border-radius: 1rem;
     border: 2px solid #721BCA;
 }
+.fasting-icon{
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    margin: auto;
+}
+.fasting-icon i{
+    font-size: 100px;
+}
+.fasting-days p{
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 15px;
+}
 .title-card{
     position: absolute;
     width: 60%;
@@ -66,7 +80,6 @@ p {
     top: -20px;
     text-align: center;
     border-radius: 10px;
-    color: #FFFFFF;
 }
 .title-card p{
     padding-top: 8px;
@@ -149,10 +162,15 @@ form button{
 #calories{
     color: #721BCA;
 }
-#calories-box img{
+
+.calories{
     position: absolute;
-    top: 30px;  
+    top: 30px;
+    width: 80%;
+    height: 80%;
+    text-align: center;
 }
+
 .fasting{
     position: absolute;
     top: 30px;
@@ -165,6 +183,7 @@ form button{
     height: 50px;
     display: flex;
     margin-right: 10px;
+    margin-bottom: 20px;
 }
 .img-box img{
     width: 100%;
